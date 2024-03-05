@@ -269,7 +269,7 @@ module "sqs_app" {
 
 # ********************** Create Explore Hierarchy ********************** #
 resource "sumologic_hierarchy" "awso_hierarchy" {
-  name = "AWS Observability"
+  name = var.awso_hierachy_name
   level {
     entity_type = "account"
     next_level {

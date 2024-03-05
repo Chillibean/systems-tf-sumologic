@@ -205,3 +205,8 @@ variable "folder_share_with_org" {
 
 }
 
+variable "awso_hierachy_name" {
+  type = string
+  description = "The name of the AWS Obserability Hierachy"
+  default = "AWS Observability"
+}
