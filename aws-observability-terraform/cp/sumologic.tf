@@ -67,7 +67,7 @@ module "sumo-module" {
   access_id                = local.sumologiccreds["access_id"]
   access_key               = local.sumologiccreds["access_key"]
   environment              = "eu"
-  json_file_directory_path = join("", [abspath("./.terraform/modules/sumo-module") ])
+  json_file_directory_path = join("", [abspath("../..") ])
   folder_installation_location = "Admin Recommended Folder"
   folder_share_with_org        = true
   sumologic_organization_id    = local.sumologiccreds["organization_id"]
