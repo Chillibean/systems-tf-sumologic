@@ -2,7 +2,7 @@ terraform {
   required_providers {
     sumologic = {
       source  = "SumoLogic/sumologic"
-      version = "2.28.2"
+      version = "2.29.0"
     }
   }
 }
