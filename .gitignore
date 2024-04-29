@@ -141,3 +141,5 @@ pkg/
 
 # OS stuff
 .DS_Store
+
+*~
